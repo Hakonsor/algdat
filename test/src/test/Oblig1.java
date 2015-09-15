@@ -1,7 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+Håkon Sørby s236331, 
+Kristoffer P.Skarrud s239404
+Simen Dagfinrud s236376
+Inge L. Schiager s198749
  */
 package test;
 
@@ -16,7 +17,8 @@ import java.util.regex.Pattern;
  * @author hakon
  */
 public class Oblig1 {
-
+    
+//antall[s.charAt(i)]++;
     /**
      * @param args the command line arguments
      *
@@ -452,10 +454,13 @@ public class Oblig1 {
             return new int[]{verdi};
         }
         int[] b = Arrays.copyOf(a, a.length);
+        Arrays.sort(b);
+        /*
         int verdi = a[0];
         for (int l = 0; l < k; l++) {
             bytt(b, l, min(b, l, b.length));
         }
+        */
         return Arrays.copyOf(b, k);
     }
 
