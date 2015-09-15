@@ -1,8 +1,8 @@
 /*
-Håkon Sørby s236331, 
-Kristoffer P.Skarrud s239404
-Simen Dagfinrud s236376
-Inge L. Schiager s198749
+Håkon Sørby s236331, HINGDATA13H3AA eller HINGDATA14HA
+Kristoffer P.Skarrud s239404 HINGDATA14HA
+Simen Dagfinrud s236376 HINGDATA14HA
+Inge L. Schiager s198749 INFORMATIK14HA
  */
 package test;
 
